@@ -1,9 +1,17 @@
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu Horizontal Responsive</title>
+  <link rel="stylesheet" href="styles.css">
 
+  <style>
+    body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
 .Seccion_Logo-Nombre{
   
   display: flex;
@@ -96,3 +104,32 @@ display: none;
   clip-path: circle(100% at center);
 }
 }
+  </style>
+</head>
+<body>
+  <nav class="nav">
+<div class="nav_contenedor">
+  <div class="Seccion_Logo-Nombre">
+    <img src="https://st.depositphotos.com/2197868/4224/v/380/depositphotos_42245645-stock-illustration-law-or-layer-seal.jpg" alt="Imagen Logo" />
+    <h2 class="titulo_local">Bufe Aguirrez</h2>
+  </div> 
+  <label for="menu" class="nav_label">
+    <img src="/PUBLIC/menu.svg" alt="">
+  </label>
+ 
+  <input type="checkbox"  id="menu" class="nav_input">
+
+  <div class="nav_menu">
+    <a href="#" class="nav_item">Inicio</a>
+    <a href="#" class="nav_item">Sobre Nosotros</a>
+    <a href="#" class="nav_item">Servicios</a>
+    <a href="#" class="nav_item">Contacto</a>
+  </div>
+
+</div>
+
+   
+
+  </nav>
+</body>
+</html>
